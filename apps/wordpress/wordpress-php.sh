@@ -9,6 +9,6 @@
 cd /tmp
 sudo wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
 sudo rpm -Uvh remi-release-6.rpm 
-sudo yum install yum-utils
+sudo yum install yum-utils -y
 sudo yum-config-manager --enable remi-php56
-sudo yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+sudo yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo -y
