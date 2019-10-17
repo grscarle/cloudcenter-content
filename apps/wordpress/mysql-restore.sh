@@ -25,7 +25,7 @@ sudo ./awscli-bundle/install -b /root/bin/aws
 #Configure S3
 sudo mkdir -p /root/.aws
 echo "[default]" | sudo tee --append /root/.aws/config
-echo "region=us-west-1" | sudo tee --append /root/.aws/config
+echo "region=ap-southeast-2" | sudo tee --append /root/.aws/config
 echo "output=json" | sudo tee --append /root/.aws/config
 echo "[default]" | sudo tee --append /root/.aws/credentials
 echo "aws_access_key_id=$aws_access_key_id" | sudo tee --append /root/.aws/credentials
